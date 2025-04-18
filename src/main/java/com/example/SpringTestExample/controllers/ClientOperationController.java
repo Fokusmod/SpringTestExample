@@ -13,11 +13,6 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/v1")
 public class ClientOperationController {
 
-
-    @ResponseBody
-    public String getHello() {
-        return "Hello;";
-    }
     @Autowired
     private ClientOperationService clientOperationService;
 
