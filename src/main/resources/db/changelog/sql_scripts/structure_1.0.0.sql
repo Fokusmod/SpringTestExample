@@ -13,7 +13,9 @@ CREATE TABLE wallets (
         PRIMARY KEY (client_id)
 );
 
-INSERT INTO wallets (balance) values (1000.00), (5000.00);
+INSERT INTO wallets (client_id, balance) values
+('6b15f4f4-c478-44f3-b026-3abf2dcb08ae',1000.00),
+('1b15f4f4-c478-44f3-b026-3abf2dcb08ea', 5000.00);
 
 
 
